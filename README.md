@@ -75,24 +75,24 @@ django-ml-app/
 
 ## ⚡ Setup
 
-# 1) clone (or copy)
-# git clone <this-repo> && cd django-ml-app
+1) clone (or copy)
+git clone <this-repo> && cd django-ml-app
 
-# 2) virtualenv
+2) virtualenv
 python -m venv .venv
-# Windows: .venv\Scripts\activate
-# macOS/Linux:
+Windows: .venv\Scripts\activate
+macOS/Linux:
 source .venv/bin/activate
 
-# 3) dependencies
+3) dependencies
 pip install -U pip
 pip install Django scikit-learn joblib numpy
 
-# 4) migrations
+4) migrations
 python manage.py migrate
 
-# 5) (optional) admin user
-# python manage.py createsuperuser
+5) (optional) admin user
+python manage.py createsuperuser
 
 
 
