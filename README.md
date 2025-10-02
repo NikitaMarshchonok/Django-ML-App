@@ -31,3 +31,11 @@ License
   In-process model caching (services.py) for low-latency predictions.
   Minimal tests: homepage renders, API returns valid prediction.
 
+
+## 🛠 Tech Stack
+
+Python 3.10+
+
+Django 4/5
+
+scikit-learn, joblib, numpy
