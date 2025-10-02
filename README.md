@@ -151,3 +151,82 @@ Core inference logic lives in predictor/services.py → predict_iris().
 
 
 
+## ✅ Tests
+
+Run the minimal test suite:
+      
+      python manage.py test
+
+Expected:
+
+    Found 2 test(s).
+    ..
+    OK
+
+
+## 🔧 Environment Variables
+
+For local dev the project uses safe defaults:
+
+  DEBUG = True
+
+  ALLOWED_HOSTS = ["*"]
+
+For production, move sensitive values to environment variables and read them in settings.py, e.g.:
+
+  export DEBUG=False
+  export ALLOWED_HOSTS="yourdomain.com"
+
+
+## 🧩 Troubleshooting
+
+1) TemplateDoesNotExist: predictor/predict_form.html
+
+Confirm the path: templates/predictor/predict_form.html (or predictor/templates/predictor/predict_form.html).
+
+The render() call uses "predictor/predict_form.html":
+
+  return render(request, "predictor/predict_form.html", {...})
+
+
+2) FileNotFoundError: iris_rf.joblib
+
+  Did you run python train.py?
+
+  The file must be at predictor/model/iris_rf.joblib.
+
+
+3) CSRF token errors in the form
+
+  Ensure {% csrf_token %} is present in the HTML form. (It is in the provided template.)
+
+4) API returns 400
+
+  Check Content-Type: application/json and that all 4 fields are numeric.
+
+5) Migration errors
+     python manage.py makemigrations
+     python manage.py migrate
+
+## 🗺 Roadmap
+
+ Dockerfile + docker-compose for easy deployment
+
+ Logging & monitoring (Sentry/Prometheus)
+
+ Model versioning and A/B testing
+
+ Auth for API (token/JWT)
+
+ Celery/Redis for async/batch inference
+
+
+## Author / Contacts
+
+  Nikita Marshchonok GitHub: https://github.com/NikitaMarshchonok 
+
+  LinkedIn: https://www.linkedin.com/in/nikita-marshchonok
+
+  Email: n.marshchonok@gmail.com
+
+  telegram: @nikitamarshchonok
