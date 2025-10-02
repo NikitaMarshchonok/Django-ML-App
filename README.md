@@ -1,4 +1,4 @@
-#🐍 Django + scikit-learn: Iris Predictor
+# 🐍 Django + scikit-learn: Iris Predictor
 
 An end-to-end Django + scikit-learn app: train a model, serve predictions via a web form and a JSON API, and run basic tests.
 The project trains a RandomForestClassifier on the Iris dataset and caches the loaded model for fast inference.
