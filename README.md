@@ -23,12 +23,19 @@ License
 
 
 ## ✅ Features
+  
   Train RandomForestClassifier on the Iris dataset (4 numeric features).
+  
   Save a bundle (estimator, feature_names, target_names) using joblib.
+  
   Django inference service with:
+                            
                             Web form (4 numeric inputs).
+                            
                             JSON API POST /api/predict/.
+  
   In-process model caching (services.py) for low-latency predictions.
+  
   Minimal tests: homepage renders, API returns valid prediction.
 
 
