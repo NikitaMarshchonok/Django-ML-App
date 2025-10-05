@@ -8,7 +8,18 @@ Quick start: train python train.py → run server python manage.py runserver →
 
 ## 📋 Table of Contents
 
-
+Features
+Tech Stack
+Project Structure
+Setup
+Model Training
+Web UI
+REST API
+Tests
+Environment Variables
+Troubleshooting
+Roadmap
+License
 
 
 ## ✅ Features
