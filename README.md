@@ -51,6 +51,7 @@ scikit-learn, joblib, numpy
 
 
 ## 📁 Project Structure
+
 django-ml-app/
 ├─ mlapp/
 │  ├─ settings.py
