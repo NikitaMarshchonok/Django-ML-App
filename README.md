@@ -53,23 +53,41 @@ scikit-learn, joblib, numpy
 ## 📁 Project Structure
 
 django-ml-app/
+
 ├─ mlapp/
+
 │  ├─ settings.py
+
 │  ├─ urls.py
+
 │  └─ ...
+
 ├─ predictor/
+
 │  ├─ model/                # created by train.py
+
 │  │  └─ iris_rf.joblib     # trained model
+
 │  ├─ forms.py              # 4 numeric inputs
+
 │  ├─ services.py           # load/cache model + predict()
+
 │  ├─ urls.py               # app routes
+
 │  ├─ views.py              # web views + API
+
 │  └─ tests.py              # minimal tests
+
 ├─ templates/
+
 │  └─ predictor/
+
 │     └─ predict_form.html  # HTML form template
+
 ├─ manage.py
+
 ├─ train.py                 # training & saving model bundle
+
 └─ requirements.txt         # optional dependencies file
 
 
