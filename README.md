@@ -54,41 +54,41 @@ scikit-learn, joblib, numpy
 
 django-ml-app/
 
-├─ mlapp/
+├ ─ mlapp/
 
-│  ├─ settings.py
+│  ├ ─ settings.py
 
-│  ├─ urls.py
+│  ├ ─ urls.py
 
 │  └─ ...
 
-├─ predictor/
+├ ─ predictor/
 
-│  ├─ model/                # created by train.py
+│  ├ ─ model/                # created by train.py
 
-│  │  └─ iris_rf.joblib     # trained model
+│  │  └ ─ iris_rf.joblib     # trained model
 
-│  ├─ forms.py              # 4 numeric inputs
+│  ├ ─ forms.py              # 4 numeric inputs
 
-│  ├─ services.py           # load/cache model + predict()
+│  ├ ─ services.py           # load/cache model + predict()
 
-│  ├─ urls.py               # app routes
+│  ├ ─ urls.py               # app routes
 
-│  ├─ views.py              # web views + API
+│  ├ ─ views.py              # web views + API
 
-│  └─ tests.py              # minimal tests
+│  └ ─ tests.py              # minimal tests
 
-├─ templates/
+├ ─ templates/
 
-│  └─ predictor/
+│  └ ─ predictor/
 
-│     └─ predict_form.html  # HTML form template
+│     └ ─ predict_form.html  # HTML form template
 
-├─ manage.py
+├ ─ manage.py
 
-├─ train.py                 # training & saving model bundle
+├ ─ train.py                 # training & saving model bundle
 
-└─ requirements.txt         # optional dependencies file
+└ ─ requirements.txt         # optional dependencies file
 
 
 
