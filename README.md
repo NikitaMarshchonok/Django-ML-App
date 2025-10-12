@@ -24,7 +24,7 @@ Tests
 Environment Variables
 Troubleshooting
 Roadmap
-
+license
 
 
 ## ✅ Features
