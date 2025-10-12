@@ -9,6 +9,8 @@ The project trains a RandomForestClassifier on the Iris dataset and caches the l
 Quick start: train python train.py → run server python manage.py runserver → open http://127.0.0.1:8000/.
 
 
+
+
 ## 📋 Table of Contents
 
 Features
@@ -22,7 +24,7 @@ Tests
 Environment Variables
 Troubleshooting
 Roadmap
-License
+
 
 
 ## ✅ Features
