@@ -128,7 +128,7 @@ Run the training script to fit the model and save the bundle:
          -> Saved model to .../predictor/model/iris_rf.joblib
 
 
-## 🌐 Web UI
+##  Web UI
 
 Start the dev server:
     
@@ -136,7 +136,7 @@ Start the dev server:
 
 
 
-## 🔗 REST API
+##  REST API
 
 Endpoint: POST /api/predict/
 Content-Type: application/json (preferred) or application/x-www-form-urlencoded.
@@ -175,7 +175,7 @@ Core inference logic lives in predictor/services.py → predict_iris().
 
 
 
-## ✅ Tests
+##  Tests
 
 Run the minimal test suite:
       
@@ -188,7 +188,7 @@ Expected:
     OK
 
 
-## 🔧 Environment Variables
+##  Environment Variables
 
 For local dev the project uses safe defaults:
 
@@ -202,7 +202,7 @@ For production, move sensitive values to environment variables and read them in 
   export ALLOWED_HOSTS="yourdomain.com"
 
 
-## 🧩 Troubleshooting
+##  Troubleshooting
 
 1) TemplateDoesNotExist: predictor/predict_form.html
 
@@ -232,7 +232,7 @@ The render() call uses "predictor/predict_form.html":
      python manage.py makemigrations
      python manage.py migrate
 
-## 🗺 Roadmap
+##  Roadmap
 
  Dockerfile + docker-compose for easy deployment
 
