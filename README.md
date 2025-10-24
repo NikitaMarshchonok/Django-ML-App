@@ -1,4 +1,4 @@
-# 🐍 Django + scikit-learn: Iris Predictor
+#  Django + scikit-learn: Iris Predictor
 
 
 
@@ -11,7 +11,7 @@ Quick start: train python train.py → run server python manage.py runserver →
 
 
 
-## 📋 Table of Contents
+##  Table of Contents
 
 Features
 Tech Stack
@@ -27,7 +27,7 @@ Roadmap
 license
 
 
-## ✅ Features
+##  Features
   
   Train RandomForestClassifier on the Iris dataset (4 numeric features).
   
