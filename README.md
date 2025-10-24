@@ -97,7 +97,7 @@ django-ml-app/
 
 
 
-## ⚡ Setup
+##  Setup
 
 1) clone (or copy)
 git clone <this-repo> && cd django-ml-app
@@ -120,7 +120,7 @@ python manage.py createsuperuser
 
 
 
-## 🧠 Model Training
+##  Model Training
 
 Run the training script to fit the model and save the bundle:
     python train.py
