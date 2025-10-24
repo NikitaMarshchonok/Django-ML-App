@@ -44,7 +44,7 @@ license
   Minimal tests: homepage renders, API returns valid prediction.
 
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 Python 3.10+
 
@@ -54,7 +54,7 @@ scikit-learn, joblib, numpy
 
 
 
-## 📁 Project Structure
+##  Project Structure
 
 django-ml-app/
 
