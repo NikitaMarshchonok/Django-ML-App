@@ -130,11 +130,7 @@ Run the training script to fit the model and save the bundle:
          -> Saved model to .../predictor/model/iris_rf.joblib
 
 
-##  Web UI
 
-Start the dev server:
-    
-    python manage.py runserver
 
 
 
